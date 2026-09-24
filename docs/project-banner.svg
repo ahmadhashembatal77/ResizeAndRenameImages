@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Resize &amp; Rename Images</title>
+  <desc id="desc">A polished project banner showing source images flowing through resize and rename steps into organized output files.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#101c34"/>
+      <stop offset="1" stop-color="#07101c"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.2" cy="0.15" r="0.75">
+      <stop offset="0" stop-color="#2f7cff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#2f7cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.82" cy="0.74" r="0.65">
+      <stop offset="0" stop-color="#6d5cff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#6d5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ea1ff"/>
+      <stop offset="1" stop-color="#8c6cff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182844"/>
+      <stop offset="1" stop-color="#0e182a"/>
+    </linearGradient>
+    <linearGradient id="photoSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b8ff7"/>
+      <stop offset="1" stop-color="#7cc9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="thumb1"><rect x="184" y="362" width="302" height="190" rx="18"/></clipPath>
+    <clipPath id="thumb2"><rect x="1110" y="346" width="306" height="191" rx="18"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glowA)"/>
+  <rect width="1600" height="900" fill="url(#glowB)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <circle cx="1375" cy="135" r="135" fill="#7a5cff" opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="180" cy="735" r="150" fill="#3a9bff" opacity="0.08" filter="url(#softGlow)"/>
+
+  <g transform="translate(105 86)">
+    <rect width="176" height="46" rx="23" fill="#122744" stroke="#4e9dff" stroke-opacity="0.45"/>
+    <circle cx="26" cy="23" r="8" fill="#64b5ff"/>
+    <text x="45" y="30" fill="#d9ebff" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">Kotlin / JVM</text>
+  </g>
+
+  <text x="105" y="215" fill="#ffffff" font-size="70" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" letter-spacing="-2">Resize &amp; Rename Images</text>
+  <text x="108" y="270" fill="#9fb3cf" font-size="28" font-family="Inter,Segoe UI,Arial,sans-serif">A focused batch image-processing workflow built with Kotlin and Gradle.</text>
+
+  <g transform="translate(1110 105)">
+    <rect width="384" height="104" rx="28" fill="#0c1729" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="28" y="38" fill="#7f94b3" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">WORKFLOW</text>
+    <text x="28" y="72" fill="#edf5ff" font-size="25" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Select → Resize → Rename → Export</text>
+  </g>
+
+  <!-- left source stack -->
+  <g filter="url(#shadow)">
+    <rect x="132" y="342" width="390" height="306" rx="30" fill="#091522" stroke="#ffffff" stroke-opacity="0.08" transform="rotate(-5 327 495)"/>
+    <rect x="147" y="328" width="390" height="306" rx="30" fill="#0d1a2d" stroke="#ffffff" stroke-opacity="0.09" transform="rotate(-2 342 481)"/>
+    <rect x="166" y="320" width="390" height="320" rx="30" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.11"/>
+  </g>
+
+  <text x="195" y="355" fill="#9db0cb" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">INPUT IMAGES</text>
+  <g clip-path="url(#thumb1)">
+    <rect x="184" y="362" width="302" height="190" fill="url(#photoSky)"/>
+    <circle cx="430" cy="402" r="34" fill="#ffe48c"/>
+    <path d="M180 516 L280 420 L348 488 L404 438 L504 548 L180 548 Z" fill="#18324c" opacity="0.95"/>
+    <path d="M180 531 L255 470 L315 520 L368 477 L500 560 L180 560 Z" fill="#285d6c"/>
+    <path d="M180 544 L256 497 L326 544 L388 502 L510 568 L180 568 Z" fill="#3d876f"/>
+  </g>
+  <rect x="184" y="362" width="302" height="190" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <circle cx="500" cy="382" r="19" fill="#0f2037" stroke="#ffffff" stroke-opacity="0.12"/>
+  <path d="M493 382h14M500 375v14" stroke="#a9d5ff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="196" y="586" fill="#f4f7fb" font-size="22" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-weight="700">IMG_4837.JPG</text>
+  <text x="196" y="615" fill="#8197b5" font-size="17" font-family="Inter,Segoe UI,Arial,sans-serif">4032 × 3024 • 5.8 MB</text>
+
+  <!-- center processor -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="330" width="380" height="330" rx="34" fill="#0b1728" stroke="#598fff" stroke-opacity="0.28"/>
+  </g>
+  <rect x="638" y="354" width="324" height="58" rx="18" fill="#101f35"/>
+  <circle cx="670" cy="383" r="13" fill="#4e9eff"/>
+  <path d="M663 383h14M670 376v14" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="695" y="390" fill="#f1f7ff" font-size="20" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Resize</text>
+
+  <text x="642" y="456" fill="#7e94b3" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">TARGET SIZE</text>
+  <g>
+    <rect x="640" y="473" width="143" height="54" rx="14" fill="#111f32" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="660" y="507" fill="#eaf2ff" font-size="21" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">800 px</text>
+    <text x="796" y="507" fill="#6d82a0" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif">×</text>
+    <rect x="820" y="473" width="142" height="54" rx="14" fill="#111f32" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="840" y="507" fill="#eaf2ff" font-size="21" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">600 px</text>
+  </g>
+
+  <rect x="638" y="552" width="324" height="80" rx="18" fill="#101f35"/>
+  <circle cx="670" cy="592" r="13" fill="#8a68ff"/>
+  <path d="M663 588h14M663 596h9" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="695" y="582" fill="#f1f7ff" font-size="19" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Rename pattern</text>
+  <text x="695" y="610" fill="#a9bce0" font-size="18" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">photo_###.jpg</text>
+
+  <!-- arrows -->
+  <g opacity="0.9">
+    <path d="M550 490 C580 490 582 490 602 490" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M592 479 L606 490 L592 501" fill="none" stroke="#74a4ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M998 490 C1025 490 1048 490 1082 490" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1072 479 L1086 490 L1072 501" fill="none" stroke="#8b74ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- right output card -->
+  <g filter="url(#shadow)">
+    <rect x="1084" y="320" width="380" height="320" rx="30" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.11"/>
+  </g>
+  <text x="1111" y="355" fill="#9db0cb" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">OUTPUT</text>
+  <g clip-path="url(#thumb2)">
+    <rect x="1110" y="346" width="306" height="191" fill="url(#photoSky)"/>
+    <circle cx="1360" cy="388" r="34" fill="#ffe48c"/>
+    <path d="M1106 500 L1205 416 L1270 476 L1322 430 L1425 540 L1106 540 Z" fill="#18324c" opacity="0.95"/>
+    <path d="M1106 518 L1180 463 L1246 510 L1300 468 L1424 554 L1106 554 Z" fill="#285d6c"/>
+    <path d="M1106 533 L1186 491 L1254 536 L1314 494 L1428 562 L1106 562 Z" fill="#3d876f"/>
+  </g>
+  <rect x="1110" y="346" width="306" height="191" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <rect x="1126" y="558" width="274" height="52" rx="14" fill="#111f32"/>
+  <circle cx="1151" cy="584" r="8" fill="#67d9a2"/>
+  <text x="1170" y="592" fill="#f4f7fb" font-size="20" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-weight="700">photo_001.jpg</text>
+
+  <!-- feature chips -->
+  <g transform="translate(165 720)">
+    <rect width="300" height="72" rx="22" fill="#0d192a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="22" y="19" width="34" height="34" rx="10" fill="#132d4d"/>
+    <path d="M31 36h16M39 28v16" stroke="#73baff" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="72" y="34" fill="#f4f8ff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Batch-friendly</text>
+    <text x="72" y="56" fill="#788daa" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Designed for repeatable workflows</text>
+  </g>
+
+  <g transform="translate(505 720)">
+    <rect width="300" height="72" rx="22" fill="#0d192a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="22" y="19" width="34" height="34" rx="10" fill="#18294b"/>
+    <path d="M31 31h16v12H31z M35 27h8" fill="none" stroke="#a88cff" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="72" y="34" fill="#f4f8ff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Local processing</text>
+    <text x="72" y="56" fill="#788daa" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">No server required by the design</text>
+  </g>
+
+  <g transform="translate(845 720)">
+    <rect width="300" height="72" rx="22" fill="#0d192a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="22" y="19" width="34" height="34" rx="10" fill="#163146"/>
+    <path d="M32 38l5 5 10-12" fill="none" stroke="#73ddb3" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="72" y="34" fill="#f4f8ff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Predictable naming</text>
+    <text x="72" y="56" fill="#788daa" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Clean sequential output files</text>
+  </g>
+
+  <g transform="translate(1185 720)">
+    <rect width="250" height="72" rx="22" fill="#0d192a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="22" y="19" width="34" height="34" rx="10" fill="#212745"/>
+    <path d="M30 43l8-14 8 14z" fill="none" stroke="#c0a8ff" stroke-width="2.2" stroke-linejoin="round"/>
+    <text x="72" y="34" fill="#f4f8ff" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Gradle</text>
+    <text x="72" y="56" fill="#788daa" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Simple JVM setup</text>
+  </g>
+
+  <text x="105" y="850" fill="#627894" font-size="17" font-family="Inter,Segoe UI,Arial,sans-serif">ResizeAndRenameImages • project visual</text>
+</svg>
